@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="https://gbsproject.com/assets/img/error-icon.png" type="image/x-icon">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,900" rel="stylesheet">
+    <!-- Custom stlylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="https://gbsproject.com/assets/css/error-style.css" />
+    <title>404 Not Found - GBS Project</title>
+</head>
+<body>
+    
+	<div id="notfound">
+            <div class="notfound-bg"></div>
+            <div class="notfound">
+                <div class="notfound-404">
+                    <h1>404</h1>
+                </div>
+                <h2>Oopsie cannot find the page you're looking for :(</h2>
+                <a href="https://gbsproject.com" class="home-btn">Go Home</a>
+                <div class="notfound-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+                <p id="attribution">GBS PROJECT @ 2018</p>
+            </div>
+        </div>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

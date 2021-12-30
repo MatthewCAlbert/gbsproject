@@ -1,0 +1,10 @@
+===== Deleting Junk =====
+Nothing to be queued. No task left.
+===== Confirming and Checking =====
+Nothing to be queued. No task left.
+===== Checking for settlements =====
+pending status check (id:T-1548574445619)
+===== Accepting whose settled and Processing the funds =====
+Nothing to be queued. No task left.
+===== Tagging Junk =====
+Nothing to be queued. No task left.

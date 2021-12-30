@@ -1,0 +1,110 @@
+060518
+> Admin Refurnish Started using Material Template.
+> Demo Assets dependant.
+> Dashboard, Login, Logout, Search, Register, Account Settings (full) added.
+> Filter-cookie doesn't work.
+> Demo assets JS error unknown.
+> No Edit user database yet.
+> Partially added level-access support.
+
+060618
+> Demo assets deprecated.
+> Template folder removed.
+> Maintenance pages added and fully functional (except Google Drive).
+> Transaction pages added and fully functional + receipt (shared cookie enabled).
+> Edit.php added for user and admin account edit.
+> Manager pages added.
+> PHPMailer installed and running fine.
+> Help-Desk pages added with reply features.
+> Analytics pages added WITHOUT CONTENT.
+> Shared cookie enabled.
+> Login page little fix.
+> Some bugs removed.
+> PerfectScrollbar plugin error unknown.
+> Partially added level-access support.
+
+060618-2
+> Refined 'back' button at transaction.
+> Admin password reset bug fix.
+> Minor bug fix.
+
+061018
+> Fixed Responsive Tables.
+> Added option at include/footer.php to change primary color (excluded animation and shadows).
+> Session table added status
+> Status column (session) added to the project
+
+061118
+> Updated jQuery version to Google CDN.
+> Updated perfectScrollbar version to Cloudflare CDN.
+> Reroute option to change primary color to main.css .
+> Security update (added 5 minutes cooldown login retry).
+
+061118-2
+> Database user added email.
+> Admin website updated to cope with row['email'].
+
+061218
+> Minor Bug fix.
+> Redesigned pagination with style.
+> Adapted to new database collumn and changes (ex. session -> transaction).
+> Welcome notification added.
+
+061318
+> Minor Bug Fix.
+> Fixed 'reciever' grammatical issue ( incl php script ) and changes to database.
+
+061318-2
+> Minor Bug Fix.
+> Security patch. (missing escape_string).
+> Removed `receiver_status` and `sender_status` from database and adjusting it to the website.
+> Banned user prevention from doing any transaction.
+
+061718
+> Minor Bug Fix.
+> Added `balance_history` to the database table.
+> Transaction function has been adapted towards `balance_history` table.
+
+061818
+> All Card Title structure fixed.
+
+062518
+> PHP pages structure header fix for hosting.
+> 403 & 404 Error Pages added.
+
+090118
+> Fixed some page header.
+> Fixed few manager page bugs.
+> Added API page manager.
+
+090718
+> Server directory linking fixed, now only need to change 3 files in one folder.
+
+090818
+> Server directory linking glitch fixed.
+> Deleting account bugs fixed.
+> Minor bug fixed.
+
+090918
+> Fixed level 3 admin privilege to edit users.
+> Added option to change users RFID (level 4++).
+
+102718
+> Added Midtrans Transaction Order Manager page.
+    > View bot logs.
+    > View transaction order.
+
+103118
+> Fixed some link for server import ready.
+
+012619
+> Fixed user password resetter and name changer.
+> Logo Updated.
+
+012719
+> include/structure.php directory fix.
+> Added User PIN reset ability.
+
+=== Archived version 15/02/19
+> Admin code leaks ";" on dashboard.
+> Google Gmail API credential fix.

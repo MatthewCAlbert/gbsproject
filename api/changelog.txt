@@ -1,0 +1,59 @@
+071918
+> API Project started.
+> Added App backend from gbs-user-beta project.
+> Added veritrans-php module (midtrans) API.
+> Added TO BE scheduled php files for logging, checking, and accepting payment from midtrans (inside sc folder).
+
+082318
+> Arduino API initialized.
+	-> EDC Payment API
+	-> Vendor Fetch Data
+> API Authentication preparations.
+>> !Notes : Mobile App API didn't have status checker, please revise!
+
+090118
+> API Authenticator added.
+> Arduino API now added verification process.
+
+090818
+> Added edcCardInterpreter function for Arduino.
+> Added User Data Balance Checker API for Arduino
+
+090818
+> Added unused device_unlock_pin API for Arduino.
+> Added device_unlock_card API for unlocking Arduino.
+
+101218
+> Finished working prototype for checkerbot ( sc/index.php ).
+> Added sc/status.php ( get status of transaction id ) ( development stage => incomplete fetching ).
+> Added sc/tracker.php ( add transaction's tracker to database ) ( development stage => value risk ).
+> Fixed sc/log.php ( for logging bot activity ).
+> Added sc/rebound.php ( for Midtrans finished redirection ).
+> Added sc/delete_rebound.php ( for Midtrans cancelled/failed redirection ).
+> Added some test files to sc folder.
+
+102518
+> Revised sc/index.php ( now added function to tag the unverified data ).
+> Added sc/logs_reader.php ( reading log text file ).
+> Added sc/logs_sourcer.php ( get available directory list for logs text file ).
+> Added sc/log_json.php ( log json file [alternative] ).
+> Revised sc/index.php ( added json log output as alternative ).
+> Revised sc/log.php ( logging protection with static key ).
+
+103118
+> Revision of sc/index.php. Now return value.
+
+012119
+> Added bunch of new Web API for new GBS User App.
+
+012619
+> Added more of new Web API for new GBS User App.
+
+012719
+> sc/index.php fix.
+> Midtrans ID date reading convertion from JS to PHP timestamp fixed.
+
+=== Archived version 15/02/19
+	> web get_history getting full name back.
+	> web get_recent_activity & get_history fixed when reporting transfer at receiving.
+> Website analytics API modified.

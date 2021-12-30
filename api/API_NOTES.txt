@@ -1,0 +1,21 @@
+What to add?
+> Get more data from midtrans 
+    > complete status / more status list
+    > value
+> At admin
+    > finish midtrans manager
+> At userarea
+    > transaction log for top up from midtrans
+
+What to fix?
+> At userarea/topup, prevent inputing value manually from the page.
+> Admin log reader search between date still buggy.
+> Connect midtrans manager at admin with API.
+
+Suggestion?
+> Instead using .txt file as logs, use .json instead.
+
+Unpushed Server Problem Update
+> Double Top up (OK) api/sc/index.php
+> midtrans trans list user bocor sql (OK) userarea/midtrans/index.php
+> topup limit (OK) userarea/topup/index.php & api/sc/tracker.php

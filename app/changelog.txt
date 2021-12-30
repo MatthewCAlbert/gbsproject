@@ -1,0 +1,60 @@
+5 Jan 2019
+    > Project Started.
+    > Initialization.
+
+20 Jan 2019
+    > Added pages.
+    > History and recent activities working.
+    > Per transaction review page working.
+    > History infinte scrolling doesn't work well at mobile.
+    > History changed to "Load More" button model.
+    > InfiniteScrolling plugin added (not applied yet).
+    > Transfer, Account Setting, Top Up (send request + checking), Send Help API missing.
+    > About, T&C, Contact, FAQ, Help pages are empty.
+
+21 Jan 2019
+    > Login page template renewed but empty.
+    > Footer(Navigation) issue when opening mobile keyboard fixed.
+
+25 Jan 2019
+    > Transfer and Account Editing now work.
+    > Ported Midtrans API Topup from previous UI and works.
+    > Check and Cross animation less plugin.
+    > Updated UI & Logo.
+    > Help changed to Customer Service page.
+    > Customer Service page works + captcha.
+    > T&C and FAQ filled and made public.
+    > Added Midtrans page.
+
+26 Jan 2019
+    > Midtrans History works.
+    > Login page updated.
+    > Transaction History minor tweaks.
+    > Bug Fix.
+    > Updated og meta tags at head.
+    > No result visual response added.
+    > About and contact page filled.
+    > After transfer result bug (change description row at transaction table MySQL to varchar(250) ).
+    > Added PIN backend and PIN structure.
+    > Transfer now requires PIN.
+    > Create PIN and change PIN.
+    > Remember me cookie fix and getuserdata fix.
+    > Full PIN Integration.
+
+27 Jan 2019
+    > More PHP Cookies fix, added backend/cookie_detector.php for cookie login redirection basis.
+    > Minor code leak fixed.
+    > Meta Head Theme Color changed.
+    > Meta user-scalable set to no.
+
+    > Transfer page w/pin fixed not scrolling, changes at index & main.js.
+    > Transfer and Topup pages directly focus user to enter value.
+    > PIN hover animation changed to onclick instead.
+    > PIN & Login content position now optimized for mobile to go a bit upper.
+    > Fixed history and midtrans when no list are queried.
+
+=== Archived version 15/02/19
+    > To do : self-lock account button & analytics.
+    > Setting and account page modified.
+    > 'WebApp' on right corner replacement with settings button instead.
+    > Seperation between sales overview and user analytics.
